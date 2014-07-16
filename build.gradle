@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 20
-    buildToolsVersion "19.1.0"
+    buildToolsVersion '20'
 
     defaultConfig {
         applicationId "custom.android.code.widgets"
@@ -21,4 +21,13 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.+'
+    }
 }
