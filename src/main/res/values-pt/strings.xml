@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading">Carregando…</string>
+    <string name="retry_content_load">Falha ao carregar dados. Tentar novamente ?</string>
+    <string name="content_empty_info">Ainda vazio.</string>
+</resources>
